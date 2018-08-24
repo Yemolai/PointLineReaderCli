@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="PointLine Reader"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="--ip=10.40.2.22"/>
+      </local>
+    </RunParams>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="PointLineReader.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="configurar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Configurar"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="parse.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Parse"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="pointlinesql.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PointLineSQL"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="erro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Erro"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="receive.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ajuda.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ajuda"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="receber.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Receber"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="PointLineReader"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
